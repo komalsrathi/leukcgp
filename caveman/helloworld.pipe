@@ -1,0 +1,27 @@
+
+KOMAL="KOMAL"
+JUAN="JUAN SAN".replace("JUAN", KOMAL)
+ENV=". /ifs/work/leukgen/.leukenvs/envs/adolf"
+
+
+hello = {
+    exec "echo $KOMAL"
+}
+
+world = {
+    exec "echo $HOME"
+}
+
+komal = {
+    check {
+        exec "bash juan"
+    } otherwise {
+        fail "The output file had zero length"
+    }
+}
+
+Bpipe.run {
+    world +
+    hello +
+    komal
+}
