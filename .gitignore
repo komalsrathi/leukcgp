@@ -1,0 +1,2 @@
+# ignore bpipe tmp dir
+.bpipe/
