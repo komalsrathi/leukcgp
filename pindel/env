@@ -1,0 +1,20 @@
+#!/bin/bash
+
+REFDIR=/ifs/work/leukgen/ref/homo_sapiens/GRCh37d5
+UNPXT=unmatched_normal_panel_bwamem_mapped_with_xten
+export OUTDIR=/ifs/work/leukgen/leukgen/tests/bpipe/cgp/output/1238
+export GENOME=/ifs/work/gabow/ref/gr37/gr37.fasta
+export TBAM=$OUTDIR/data/D1238.bam
+export NBAM=$OUTDIR/data/N1238.bam
+export TNAME=D1238
+export NNAME=N1238
+export SIMREP=$REFDIR/pindel/flagging/simpleRepeats.bed.gz
+export FILTER=$REFDIR/pindel/flagging/genomicRules.lst
+export GENES=$REFDIR/vagrent/Human.GRCh37.gene_regions.bed.gz
+export UNMATCHED=$REFDIR/pindel/$UNPXT/pindel_np.v4.gff3.gz
+export ASSEMBLY=GRCh37
+export SPECIES=Human
+export EXCLUDE=NC_007605,hs37d5,GL%
+export FLAGGED=$OUTDIR/"$TNAME"_vs_"$NNAME".flagged.vcf.gz
+export ANNOT=$OUTDIR/"$TNAME"_vs_"$NNAME".flagged.annot.vcf
+export CACHE=$REFDIR/vagrent/Homo_sapiens.GRCh37.74.vagrent.cache.gz

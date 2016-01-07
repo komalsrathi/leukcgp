@@ -1,0 +1,14 @@
+-p OUTDIR=/ifs/work/leukgen/leukgen/tests/bpipe/cgp/output/1238
+-p GENOME=/ifs/work/gabow/ref/gr37/gr37.fasta
+-p TBAM=/ifs/work/leukgen/leukgen/tests/bpipe/cgp/output/1238/data/D1238.bam
+-p NBAM=/ifs/work/leukgen/leukgen/tests/bpipe/cgp/output/1238/data/N1238.bam
+-p SIMREP=/ifs/work/leukgen/ref/homo_sapiens/GRCh37d5/pindel/flagging/simpleRepeats.bed.gz
+-p FILTER=/ifs/work/leukgen/ref/homo_sapiens/GRCh37d5/pindel/flagging/genomicRules.lst
+-p GENES=/ifs/work/leukgen/ref/homo_sapiens/GRCh37d5/vagrent/Human.GRCh37.gene_regions.bed.gz
+-p UNMATCHED=/ifs/work/leukgen/ref/homo_sapiens/GRCh37d5//pindel/unmatched_normal_panel_bwamem_mapped_with_xten/pindel_np.v4.gff3.gz
+-p ASSEMBLY=GRCh37
+-p SPECIES=Human
+-p EXCLUDE=NC_007605,hs37d5,GL%
+-p FLAGGED=/ifs/work/leukgen/leukgen/tests/bpipe/cgp/output/1238/D1238_vs_N1238.flagged.vcf.gz
+-p ANNOT=/ifs/work/leukgen/leukgen/tests/bpipe/cgp/output/1238/D1238_vs_N1238.flagged.annot.vcf
+-p CACHE=/ifs/work/leukgen/ref/homo_sapiens/GRCh37d5/vagrent/Homo_sapiens.GRCh37.74.vagrent.cache.gz

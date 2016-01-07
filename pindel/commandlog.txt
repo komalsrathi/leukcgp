@@ -1,0 +1,443 @@
+
+####################################################################################################
+# Starting pipeline at Thu Jan 07 12:29:55 EST 2016
+# Input files:  null
+# Output Log:  .bpipe/logs/62952.log
+# Stage input
+pindel.pl -o  /ifs/work/leukgen/leukgen/tests/bpipe/cgp/output/1238 -r  /ifs/work/gabow/ref/gr37/gr37.fasta -t  /ifs/work/leukgen/leukgen/tests/bpipe/cgp/output/1238/data/D1238.bam -n  /ifs/work/leukgen/leukgen/tests/bpipe/cgp/output/1238/data/N1238.bam -s  /ifs/work/leukgen/ref/homo_sapiens/GRCh37d5/pindel/flagging/simpleRepeats.bed.gz -f  /ifs/work/leukgen/ref/homo_sapiens/GRCh37d5/pindel/flagging/genomicRules.lst -g  /ifs/work/leukgen/ref/homo_sapiens/GRCh37d5/vagrent/Human.GRCh37.gene_regions.bed.gz -u  /ifs/work/leukgen/ref/homo_sapiens/GRCh37d5//pindel/unmatched_normal_panel_bwamem_mapped_with_xten/pindel_np.v4.gff3.gz -as GRCh37 -sp Human -e  NC_007605,hs37d5,GL% -p  input -i $LSB_JOBINDEX
+# ################ Finished at Thu Jan 07 12:29:56 EST 2016 Duration = 0.367 seconds #################
+
+
+####################################################################################################
+# Starting pipeline at Thu Jan 07 12:33:37 EST 2016
+# Input files:  null
+# Output Log:  .bpipe/logs/765.log
+# Stage input
+pindel.pl -o  /ifs/work/leukgen/leukgen/tests/bpipe/cgp/output/1238 -r  /ifs/work/gabow/ref/gr37/gr37.fasta -t  /ifs/work/leukgen/leukgen/tests/bpipe/cgp/output/1238/data/D1238.bam -n  /ifs/work/leukgen/leukgen/tests/bpipe/cgp/output/1238/data/N1238.bam -s  /ifs/work/leukgen/ref/homo_sapiens/GRCh37d5/pindel/flagging/simpleRepeats.bed.gz -f  /ifs/work/leukgen/ref/homo_sapiens/GRCh37d5/pindel/flagging/genomicRules.lst -g  /ifs/work/leukgen/ref/homo_sapiens/GRCh37d5/vagrent/Human.GRCh37.gene_regions.bed.gz -u  /ifs/work/leukgen/ref/homo_sapiens/GRCh37d5//pindel/unmatched_normal_panel_bwamem_mapped_with_xten/pindel_np.v4.gff3.gz -as GRCh37 -sp Human -e  NC_007605,hs37d5,GL% -p  input -i $LSB_JOBINDEX
+# ################ Finished at Thu Jan 07 12:33:38 EST 2016 Duration = 0.364 seconds #################
+
+
+####################################################################################################
+# Starting pipeline at Thu Jan 07 12:37:12 EST 2016
+# Input files:  null
+# Output Log:  .bpipe/logs/3507.log
+# Stage input
+pindel.pl -o  /ifs/work/leukgen/leukgen/tests/bpipe/cgp/output/1238 -r  /ifs/work/gabow/ref/gr37/gr37.fasta -t  /ifs/work/leukgen/leukgen/tests/bpipe/cgp/output/1238/data/D1238.bam -n  /ifs/work/leukgen/leukgen/tests/bpipe/cgp/output/1238/data/N1238.bam -s  /ifs/work/leukgen/ref/homo_sapiens/GRCh37d5/pindel/flagging/simpleRepeats.bed.gz -f  /ifs/work/leukgen/ref/homo_sapiens/GRCh37d5/pindel/flagging/genomicRules.lst -g  /ifs/work/leukgen/ref/homo_sapiens/GRCh37d5/vagrent/Human.GRCh37.gene_regions.bed.gz -u  /ifs/work/leukgen/ref/homo_sapiens/GRCh37d5//pindel/unmatched_normal_panel_bwamem_mapped_with_xten/pindel_np.v4.gff3.gz -as GRCh37 -sp Human -e  NC_007605,hs37d5,GL% -p  input -i $LSB_JOBINDEX
+
+####################################################################################################
+# Starting pipeline at Thu Jan 07 12:42:32 EST 2016
+# Input files:  null
+# Output Log:  .bpipe/logs/7660.log
+# Stage input
+pindel.pl -o  /ifs/work/leukgen/leukgen/tests/bpipe/cgp/output/1238 -r  /ifs/work/gabow/ref/gr37/gr37.fasta -t  /ifs/work/leukgen/leukgen/tests/bpipe/cgp/output/1238/data/D1238.bam -n  /ifs/work/leukgen/leukgen/tests/bpipe/cgp/output/1238/data/N1238.bam -s  /ifs/work/leukgen/ref/homo_sapiens/GRCh37d5/pindel/flagging/simpleRepeats.bed.gz -f  /ifs/work/leukgen/ref/homo_sapiens/GRCh37d5/pindel/flagging/genomicRules.lst -g  /ifs/work/leukgen/ref/homo_sapiens/GRCh37d5/vagrent/Human.GRCh37.gene_regions.bed.gz -u  /ifs/work/leukgen/ref/homo_sapiens/GRCh37d5//pindel/unmatched_normal_panel_bwamem_mapped_with_xten/pindel_np.v4.gff3.gz -as GRCh37 -sp Human -e  NC_007605,hs37d5,GL% -p  input -i $LSB_JOBINDEX
+# ################ Finished at Thu Jan 07 12:42:32 EST 2016 Duration = 0.385 seconds #################
+
+
+####################################################################################################
+# Starting pipeline at Thu Jan 07 12:43:27 EST 2016
+# Input files:  null
+# Output Log:  .bpipe/logs/8333.log
+# Stage input
+pindel.pl -o  /ifs/work/leukgen/leukgen/tests/bpipe/cgp/output/1238 -r  /ifs/work/gabow/ref/gr37/gr37.fasta -t  /ifs/work/leukgen/leukgen/tests/bpipe/cgp/output/1238/data/D1238.bam -n  /ifs/work/leukgen/leukgen/tests/bpipe/cgp/output/1238/data/N1238.bam -s  /ifs/work/leukgen/ref/homo_sapiens/GRCh37d5/pindel/flagging/simpleRepeats.bed.gz -f  /ifs/work/leukgen/ref/homo_sapiens/GRCh37d5/pindel/flagging/genomicRules.lst -g  /ifs/work/leukgen/ref/homo_sapiens/GRCh37d5/vagrent/Human.GRCh37.gene_regions.bed.gz -u  /ifs/work/leukgen/ref/homo_sapiens/GRCh37d5//pindel/unmatched_normal_panel_bwamem_mapped_with_xten/pindel_np.v4.gff3.gz -as GRCh37 -sp Human -e  NC_007605,hs37d5,GL% -p  input -i $LSB_JOBINDEX
+# ################ Finished at Thu Jan 07 12:43:27 EST 2016 Duration = 0.375 seconds #################
+
+
+####################################################################################################
+# Starting pipeline at Thu Jan 07 12:49:24 EST 2016
+# Input files:  null
+# Output Log:  .bpipe/logs/9574.log
+# Stage input
+pindel.pl -o  /ifs/work/leukgen/leukgen/tests/bpipe/cgp/output/1238 -r  /ifs/work/gabow/ref/gr37/gr37.fasta -t  /ifs/work/leukgen/leukgen/tests/bpipe/cgp/output/1238/data/D1238.bam -n  /ifs/work/leukgen/leukgen/tests/bpipe/cgp/output/1238/data/N1238.bam -s  /ifs/work/leukgen/ref/homo_sapiens/GRCh37d5/pindel/flagging/simpleRepeats.bed.gz -f  /ifs/work/leukgen/ref/homo_sapiens/GRCh37d5/pindel/flagging/genomicRules.lst -g  /ifs/work/leukgen/ref/homo_sapiens/GRCh37d5/vagrent/Human.GRCh37.gene_regions.bed.gz -u  /ifs/work/leukgen/ref/homo_sapiens/GRCh37d5//pindel/unmatched_normal_panel_bwamem_mapped_with_xten/pindel_np.v4.gff3.gz -as GRCh37 -sp Human -e  NC_007605,hs37d5,GL% -i $LSB_JOBINDEX -p  input
+# ################ Finished at Thu Jan 07 12:49:24 EST 2016 Duration = 0.372 seconds #################
+
+
+####################################################################################################
+# Starting pipeline at Thu Jan 07 14:49:05 EST 2016
+# Input files:  null
+# Output Log:  .bpipe/logs/14870.log
+# Stage input
+pindel.pl -o  /ifs/work/leukgen/leukgen/tests/bpipe/cgp/output/1238 -r  /ifs/work/gabow/ref/gr37/gr37.fasta -t  JUAN -n  /ifs/work/leukgen/leukgen/tests/bpipe/cgp/output/1238/data/N1238.bam -s  /ifs/work/leukgen/ref/homo_sapiens/GRCh37d5/pindel/flagging/simpleRepeats.bed.gz -f  /ifs/work/leukgen/ref/homo_sapiens/GRCh37d5/pindel/flagging/genomicRules.lst -g  /ifs/work/leukgen/ref/homo_sapiens/GRCh37d5/vagrent/Human.GRCh37.gene_regions.bed.gz -u  /ifs/work/leukgen/ref/homo_sapiens/GRCh37d5//pindel/unmatched_normal_panel_bwamem_mapped_with_xten/pindel_np.v4.gff3.gz -as GRCh37 -sp JUAN -e  NC_007605,hs37d5,GL% -i $LSB_JOBINDEX -p  input
+# ################ Finished at Thu Jan 07 14:49:07 EST 2016 Duration = 2.241 seconds #################
+
+
+####################################################################################################
+# Starting pipeline at Thu Jan 07 15:07:19 EST 2016
+# Input files:  null
+# Output Log:  .bpipe/logs/21198.log
+# Stage world
+echo $MARC
+# Stage hello
+echo KOMAL
+# Stage komal
+[ -f carlos ]
+# ################ Finished at Thu Jan 07 15:07:21 EST 2016 Duration = 1.883 seconds #################
+
+
+####################################################################################################
+# Starting pipeline at Thu Jan 07 15:07:56 EST 2016
+# Input files:  null
+# Output Log:  .bpipe/logs/21384.log
+# Stage world
+echo MARC
+# Stage hello
+echo KOMAL
+# Stage komal
+# ################ Finished at Thu Jan 07 15:07:57 EST 2016 Duration = 0.837 seconds #################
+
+
+####################################################################################################
+# Starting pipeline at Thu Jan 07 15:08:14 EST 2016
+# Input files:  null
+# Output Log:  .bpipe/logs/21531.log
+# Stage world
+echo MARC
+# Stage hello
+echo KOMAL
+# Stage komal
+# ################ Finished at Thu Jan 07 15:08:16 EST 2016 Duration = 1.247 seconds #################
+
+
+####################################################################################################
+# Starting pipeline at Thu Jan 07 15:14:32 EST 2016
+# Input files:  null
+# Output Log:  .bpipe/logs/22650.log
+# Stage world
+echo MARC
+# Stage hello
+echo KOMAL
+# Stage komal
+# ################ Finished at Thu Jan 07 15:14:33 EST 2016 Duration = 0.823 seconds #################
+
+
+####################################################################################################
+# Starting pipeline at Thu Jan 07 15:17:38 EST 2016
+# Input files:  null
+# Output Log:  .bpipe/logs/23233.log
+# Stage world
+echo $HOME
+# Stage hello
+echo KOMAL
+# Stage komal
+# ################ Finished at Thu Jan 07 15:17:39 EST 2016 Duration = 1.215 seconds #################
+
+
+####################################################################################################
+# Starting pipeline at Thu Jan 07 15:19:42 EST 2016
+# Input files:  null
+# Output Log:  .bpipe/logs/23666.log
+# Stage world
+echo $HOME
+# Stage hello
+echo KOMAL
+# Stage komal
+# ################ Finished at Thu Jan 07 15:19:43 EST 2016 Duration = 0.797 seconds #################
+
+
+####################################################################################################
+# Starting pipeline at Thu Jan 07 15:20:01 EST 2016
+# Input files:  null
+# Output Log:  .bpipe/logs/23794.log
+# Stage world
+echo $HOME
+# Stage hello
+echo KOMAL
+# Stage komal
+# ################ Finished at Thu Jan 07 15:20:01 EST 2016 Duration = 0.818 seconds #################
+
+
+####################################################################################################
+# Starting pipeline at Thu Jan 07 15:20:08 EST 2016
+# Input files:  null
+# Output Log:  .bpipe/logs/23997.log
+# Stage world
+echo $HOME
+# Stage hello
+echo KOMAL
+# Stage komal
+# ################ Finished at Thu Jan 07 15:20:09 EST 2016 Duration = 1.235 seconds #################
+
+
+####################################################################################################
+# Starting pipeline at Thu Jan 07 15:20:19 EST 2016
+# Input files:  null
+# Output Log:  .bpipe/logs/24114.log
+# Stage world
+echo $HOME
+# Stage hello
+echo KOMAL
+# Stage komal
+# ################ Finished at Thu Jan 07 15:20:20 EST 2016 Duration = 0.836 seconds #################
+
+
+####################################################################################################
+# Starting pipeline at Thu Jan 07 15:25:12 EST 2016
+# Input files:  null
+# Output Log:  .bpipe/logs/25090.log
+# Stage world
+echo $HOME
+# Stage hello
+echo KOMAL
+# Stage komal
+# ################ Finished at Thu Jan 07 15:25:13 EST 2016 Duration = 1.195 seconds #################
+
+
+####################################################################################################
+# Starting pipeline at Thu Jan 07 15:25:41 EST 2016
+# Input files:  null
+# Output Log:  .bpipe/logs/25254.log
+# Stage world
+echo $HOME
+# Stage hello
+echo KOMAL
+# Stage komal
+echo juan
+# ################ Finished at Thu Jan 07 15:25:42 EST 2016 Duration = 0.982 seconds #################
+
+
+####################################################################################################
+# Starting pipeline at Thu Jan 07 15:26:44 EST 2016
+# Input files:  null
+# Output Log:  .bpipe/logs/25516.log
+# Stage world
+echo $HOME
+# Stage hello
+echo KOMAL
+# Stage komal
+[ -s komal ]
+# ################ Finished at Thu Jan 07 15:26:45 EST 2016 Duration = 1.162 seconds #################
+
+
+####################################################################################################
+# Starting pipeline at Thu Jan 07 15:27:49 EST 2016
+# Input files:  null
+# Output Log:  .bpipe/logs/25786.log
+# Stage world
+echo $HOME
+# Stage hello
+echo KOMAL
+# Stage komal
+# ################ Finished at Thu Jan 07 15:27:51 EST 2016 Duration = 1.269 seconds #################
+
+
+####################################################################################################
+# Starting pipeline at Thu Jan 07 15:29:50 EST 2016
+# Input files:  null
+# Output Log:  .bpipe/logs/26189.log
+# Stage world
+echo $HOME
+# Stage hello
+echo KOMAL
+# Stage komal
+echo komal
+# ################ Finished at Thu Jan 07 15:29:51 EST 2016 Duration = 1.090 seconds #################
+
+
+####################################################################################################
+# Starting pipeline at Thu Jan 07 15:31:18 EST 2016
+# Input files:  null
+# Output Log:  .bpipe/logs/26543.log
+# Stage world
+echo $HOME
+# Stage hello
+echo KOMAL
+# Stage komal
+# ################ Finished at Thu Jan 07 15:31:19 EST 2016 Duration = 0.879 seconds #################
+
+
+####################################################################################################
+# Starting pipeline at Thu Jan 07 15:37:56 EST 2016
+# Input files:  null
+# Output Log:  .bpipe/logs/27634.log
+# Stage world
+echo $HOME
+# Stage hello
+echo KOMAL
+# Stage komal
+# ################ Finished at Thu Jan 07 15:37:57 EST 2016 Duration = 1.177 seconds #################
+
+
+####################################################################################################
+# Starting pipeline at Thu Jan 07 15:40:38 EST 2016
+# Input files:  null
+# Output Log:  .bpipe/logs/28460.log
+# Stage world
+echo $HOME
+# Stage hello
+echo KOMAL
+# Stage komal
+# ################ Finished at Thu Jan 07 15:40:39 EST 2016 Duration = 0.872 seconds #################
+
+
+####################################################################################################
+# Starting pipeline at Thu Jan 07 15:42:03 EST 2016
+# Input files:  null
+# Output Log:  .bpipe/logs/28849.log
+# Stage input
+pindel.pl -o  /ifs/work/leukgen/leukgen/tests/bpipe/cgp/output/1238 -r  /ifs/work/gabow/ref/gr37/gr37.fasta -t  /ifs/work/leukgen/leukgen/tests/bpipe/cgp/output/1238/data/D1238.bam -n  /ifs/work/leukgen/leukgen/tests/bpipe/cgp/output/1238/data/N1238.bam -s  /ifs/work/leukgen/ref/homo_sapiens/GRCh37d5/pindel/flagging/simpleRepeats.bed.gz -f  /ifs/work/leukgen/ref/homo_sapiens/GRCh37d5/pindel/flagging/genomicRules.lst -g  /ifs/work/leukgen/ref/homo_sapiens/GRCh37d5/vagrent/Human.GRCh37.gene_regions.bed.gz -u  /ifs/work/leukgen/ref/homo_sapiens/GRCh37d5//pindel/unmatched_normal_panel_bwamem_mapped_with_xten/pindel_np.v4.gff3.gz -as GRCh37 -sp Human -e  NC_007605,hs37d5,GL% -i $LSB_JOBINDEX -p  input
+# ################ Finished at Thu Jan 07 15:42:04 EST 2016 Duration = 0.899 seconds #################
+
+
+####################################################################################################
+# Starting pipeline at Thu Jan 07 15:42:40 EST 2016
+# Input files:  null
+# Output Log:  .bpipe/logs/29037.log
+# Stage input
+pindel.pl -o  /ifs/work/leukgen/leukgen/tests/bpipe/cgp/output/1238 -r  /ifs/work/gabow/ref/gr37/gr37.fasta -t  /ifs/work/leukgen/leukgen/tests/bpipe/cgp/output/1238/data/D1238.bam -n  /ifs/work/leukgen/leukgen/tests/bpipe/cgp/output/1238/data/N1238.bam -s  /ifs/work/leukgen/ref/homo_sapiens/GRCh37d5/pindel/flagging/simpleRepeats.bed.gz -f  /ifs/work/leukgen/ref/homo_sapiens/GRCh37d5/pindel/flagging/genomicRules.lst -g  /ifs/work/leukgen/ref/homo_sapiens/GRCh37d5/vagrent/Human.GRCh37.gene_regions.bed.gz -u  /ifs/work/leukgen/ref/homo_sapiens/GRCh37d5//pindel/unmatched_normal_panel_bwamem_mapped_with_xten/pindel_np.v4.gff3.gz -as GRCh37 -sp Human -e  NC_007605,hs37d5,GL% -i $LSB_JOBINDEX -p  input
+# ################ Finished at Thu Jan 07 15:42:40 EST 2016 Duration = 0.488 seconds #################
+
+
+####################################################################################################
+# Starting pipeline at Thu Jan 07 15:45:09 EST 2016
+# Input files:  null
+# Output Log:  .bpipe/logs/29544.log
+# Stage input
+pindel.pl -o  /ifs/work/leukgen/leukgen/tests/bpipe/cgp/output/1238 -r  /ifs/work/gabow/ref/gr37/gr37.fasta -t  /ifs/work/leukgen/leukgen/tests/bpipe/cgp/output/1238/data/D1238.bam -n  /ifs/work/leukgen/leukgen/tests/bpipe/cgp/output/1238/data/N1238.bam -s  /ifs/work/leukgen/ref/homo_sapiens/GRCh37d5/pindel/flagging/simpleRepeats.bed.gz -f  /ifs/work/leukgen/ref/homo_sapiens/GRCh37d5/pindel/flagging/genomicRules.lst -g  /ifs/work/leukgen/ref/homo_sapiens/GRCh37d5/vagrent/Human.GRCh37.gene_regions.bed.gz -u  /ifs/work/leukgen/ref/homo_sapiens/GRCh37d5//pindel/unmatched_normal_panel_bwamem_mapped_with_xten/pindel_np.v4.gff3.gz -as GRCh37 -sp Human -e  NC_007605,hs37d5,GL% -i $LSB_JOBINDEX -p  input
+# ################ Finished at Thu Jan 07 15:45:09 EST 2016 Duration = 0.496 seconds #################
+
+
+####################################################################################################
+# Starting pipeline at Thu Jan 07 15:47:39 EST 2016
+# Input files:  null
+# Output Log:  .bpipe/logs/30172.log
+# Stage input
+pindel.pl -o  /ifs/work/leukgen/leukgen/tests/bpipe/cgp/output/1238 -r  /ifs/work/gabow/ref/gr37/gr37.fasta -t  /ifs/work/leukgen/leukgen/tests/bpipe/cgp/output/1238/data/D1238.bam -n  /ifs/work/leukgen/leukgen/tests/bpipe/cgp/output/1238/data/N1238.bam -s  /ifs/work/leukgen/ref/homo_sapiens/GRCh37d5/pindel/flagging/simpleRepeats.bed.gz -f  /ifs/work/leukgen/ref/homo_sapiens/GRCh37d5/pindel/flagging/genomicRules.lst -g  /ifs/work/leukgen/ref/homo_sapiens/GRCh37d5/vagrent/Human.GRCh37.gene_regions.bed.gz -u  /ifs/work/leukgen/ref/homo_sapiens/GRCh37d5//pindel/unmatched_normal_panel_bwamem_mapped_with_xten/pindel_np.v4.gff3.gz -as GRCh37 -sp Human -e  NC_007605,hs37d5,GL% -i $LSB_JOBINDEX -p  input
+# ################ Finished at Thu Jan 07 15:47:40 EST 2016 Duration = 0.887 seconds #################
+
+
+####################################################################################################
+# Starting pipeline at Thu Jan 07 15:47:56 EST 2016
+# Input files:  null
+# Output Log:  .bpipe/logs/30280.log
+# Stage input
+pindel.pl -o  /ifs/work/leukgen/leukgen/tests/bpipe/cgp/output/1238 -r  /ifs/work/gabow/ref/gr37/gr37.fasta -t  /ifs/work/leukgen/leukgen/tests/bpipe/cgp/output/1238/data/D1238.bam -n  /ifs/work/leukgen/leukgen/tests/bpipe/cgp/output/1238/data/N1238.bam -s  /ifs/work/leukgen/ref/homo_sapiens/GRCh37d5/pindel/flagging/simpleRepeats.bed.gz -f  /ifs/work/leukgen/ref/homo_sapiens/GRCh37d5/pindel/flagging/genomicRules.lst -g  /ifs/work/leukgen/ref/homo_sapiens/GRCh37d5/vagrent/Human.GRCh37.gene_regions.bed.gz -u  /ifs/work/leukgen/ref/homo_sapiens/GRCh37d5//pindel/unmatched_normal_panel_bwamem_mapped_with_xten/pindel_np.v4.gff3.gz -as GRCh37 -sp Human -e  NC_007605,hs37d5,GL% -i $LSB_JOBINDEX -p  input
+# ################ Finished at Thu Jan 07 15:47:57 EST 2016 Duration = 0.498 seconds #################
+
+
+####################################################################################################
+# Starting pipeline at Thu Jan 07 15:51:19 EST 2016
+# Input files:  null
+# Output Log:  .bpipe/logs/31068.log
+# Stage input
+source env
+# ################ Finished at Thu Jan 07 15:51:20 EST 2016 Duration = 0.459 seconds #################
+
+
+####################################################################################################
+# Starting pipeline at Thu Jan 07 15:51:56 EST 2016
+# Input files:  null
+# Output Log:  .bpipe/logs/31242.log
+# Stage input
+source env
+# ################ Finished at Thu Jan 07 15:51:57 EST 2016 Duration = 1.145 seconds #################
+
+
+####################################################################################################
+# Starting pipeline at Thu Jan 07 15:52:29 EST 2016
+# Input files:  null
+# Output Log:  .bpipe/logs/31431.log
+# Stage input
+source ./env
+pindel.pl -o  $OUTDIR -r  $GENOME -t  $TBAM -n  $NBAM -s  $SIMREP -f  $FILTER -g  $GENES -u  $UNMATCHED -as $ASSEMBLY -sp $SPECIES -e  $EXCLUDE -i $LSB_JOBINDEX -p  input
+
+####################################################################################################
+# Starting pipeline at Thu Jan 07 15:53:05 EST 2016
+# Input files:  null
+# Output Log:  .bpipe/logs/31617.log
+# Stage input
+source ./env
+echo -o  $OUTDIR -r  $GENOME -t  $TBAM -n  $NBAM -s  $SIMREP -f  $FILTER -g  $GENES -u  $UNMATCHED -as $ASSEMBLY -sp $SPECIES -e  $EXCLUDE -i $LSB_JOBINDEX -p  input
+
+####################################################################################################
+# Starting pipeline at Thu Jan 07 15:53:48 EST 2016
+# Input files:  null
+# Output Log:  .bpipe/logs/31875.log
+# Stage input
+source /ifs/work/leukgen/leukgen/tests/bpipe/pindel
+# ################ Finished at Thu Jan 07 15:53:49 EST 2016 Duration = 0.765 seconds #################
+
+
+####################################################################################################
+# Starting pipeline at Thu Jan 07 15:54:03 EST 2016
+# Input files:  null
+# Output Log:  .bpipe/logs/31977.log
+# Stage input
+source /ifs/work/leukgen/leukgen/tests/bpipe/pindel/env
+echo -o  $OUTDIR -r  $GENOME -t  $TBAM -n  $NBAM -s  $SIMREP -f  $FILTER -g  $GENES -u  $UNMATCHED -as $ASSEMBLY -sp $SPECIES -e  $EXCLUDE -i $LSB_JOBINDEX -p  input
+
+####################################################################################################
+# Starting pipeline at Thu Jan 07 15:54:21 EST 2016
+# Input files:  null
+# Output Log:  .bpipe/logs/32170.log
+# Stage input
+source /ifs/work/leukgen/leukgen/tests/bpipe/pindel/env
+echo -o  $OUTDIR -r  $GENOME -t  $TBAM -n  $NBAM -s  $SIMREP -f  $FILTER -g  $GENES -u  $UNMATCHED -as $ASSEMBLY -sp $SPECIES -e  $EXCLUDE -i $LSB_JOBINDEX -p  input
+# Stage pindel
+pindel.pl -o  $OUTDIR -r  $GENOME -t  $TBAM -n  $NBAM -s  $SIMREP -f  $FILTER -g  $GENES -u  $UNMATCHED -as $ASSEMBLY -sp $SPECIES -e  $EXCLUDE -i $LSB_JOBINDEX -p  pindel -cpus 2
+
+####################################################################################################
+# Starting pipeline at Thu Jan 07 15:54:58 EST 2016
+# Input files:  null
+# Output Log:  .bpipe/logs/32375.log
+# Stage input
+echo -o  $OUTDIR -r  $GENOME -t  $TBAM -n  $NBAM -s  $SIMREP -f  $FILTER -g  $GENES -u  $UNMATCHED -as $ASSEMBLY -sp $SPECIES -e  $EXCLUDE -i $LSB_JOBINDEX -p  input
+# ################ Finished at Thu Jan 07 15:54:59 EST 2016 Duration = 0.513 seconds #################
+
+
+####################################################################################################
+# Starting pipeline at Thu Jan 07 16:11:38 EST 2016
+# Input files:  null
+# Output Log:  .bpipe/logs/35741.log
+# Stage input
+pindel.pl -o  $OUTDIR -r  $GENOME -t  $TBAM -n  $NBAM -s  $SIMREP -f  $FILTER -g  $GENES -u  $UNMATCHED -as $ASSEMBLY -sp $SPECIES -e  $EXCLUDE -i $LSB_JOBINDEX -p  input
+# ################ Finished at Thu Jan 07 16:11:38 EST 2016 Duration = 0.378 seconds #################
+
+
+####################################################################################################
+# Starting pipeline at Thu Jan 07 16:13:06 EST 2016
+# Input files:  null
+# Output Log:  .bpipe/logs/36041.log
+# Stage mklogsdir
+mkdir -p $OUTDIR/blogs $OUTDIR/err
+# Stage input
+pindel.pl -o  $OUTDIR -r  $GENOME -t  $TBAM -n  $NBAM -s  $SIMREP -f  $FILTER -g  $GENES -u  $UNMATCHED -as $ASSEMBLY -sp $SPECIES -e  $EXCLUDE -i $LSB_JOBINDEX -p  input
+# Stage pindel
+pindel.pl -o  $OUTDIR -r  $GENOME -t  $TBAM -n  $NBAM -s  $SIMREP -f  $FILTER -g  $GENES -u  $UNMATCHED -as $ASSEMBLY -sp $SPECIES -e  $EXCLUDE -i $LSB_JOBINDEX -p  pindel -cpus 2
+
+####################################################################################################
+# Starting pipeline at Thu Jan 07 16:16:31 EST 2016
+# Input files:  null
+# Output Log:  .bpipe/logs/36911.log
+# Stage mklogsdir
+mkdir -p $OUTDIR/blogs $OUTDIR/err
+# Stage input
+pindel.pl -o  $OUTDIR -r  $GENOME -t  $TBAM -n  $NBAM -s  $SIMREP -f  $FILTER -g  $GENES -u  $UNMATCHED -as $ASSEMBLY -sp $SPECIES -e  $EXCLUDE -i $LSB_JOBINDEX -p  input
+# Stage pindel
+pindel.pl -o  $OUTDIR -r  $GENOME -t  $TBAM -n  $NBAM -s  $SIMREP -f  $FILTER -g  $GENES -u  $UNMATCHED -as $ASSEMBLY -sp $SPECIES -e  $EXCLUDE -i $LSB_JOBINDEX -p  pindel -cpus 2
+# Stage pin2vcf
+pindel.pl -o  $OUTDIR -r  $GENOME -t  $TBAM -n  $NBAM -s  $SIMREP -f  $FILTER -g  $GENES -u  $UNMATCHED -as $ASSEMBLY -sp $SPECIES -e  $EXCLUDE -i $LSB_JOBINDEX -p  pin2vcf -cpus 1
+# Stage merge
+pindel.pl -o  $OUTDIR -r  $GENOME -t  $TBAM -n  $NBAM -s  $SIMREP -f  $FILTER -g  $GENES -u  $UNMATCHED -as $ASSEMBLY -sp $SPECIES -e  $EXCLUDE -i $LSB_JOBINDEX -p  merge -cpus 1
+# ########### Finished at Thu Jan 07 16:18:34 EST 2016 Duration = 2 minutes, 2.557 seconds ###########
+
+
+####################################################################################################
+# Starting pipeline at Thu Jan 07 16:29:39 EST 2016
+# Input files:  null
+# Output Log:  .bpipe/logs/39454.log
+# Stage mklogsdir
+mkdir -p $OUTDIR/blogs $OUTDIR/err
+# Stage input
+pindel.pl -o  $OUTDIR -r  $GENOME -t  $TBAM -n  $NBAM -s  $SIMREP -f  $FILTER -g  $GENES -u  $UNMATCHED -as $ASSEMBLY -sp $SPECIES -e  $EXCLUDE -i $LSB_JOBINDEX -p  input
+# Stage pindel
+pindel.pl -o  $OUTDIR -r  $GENOME -t  $TBAM -n  $NBAM -s  $SIMREP -f  $FILTER -g  $GENES -u  $UNMATCHED -as $ASSEMBLY -sp $SPECIES -e  $EXCLUDE -i $LSB_JOBINDEX -p  pindel -cpus 2
+# Stage pin2vcf
+pindel.pl -o  $OUTDIR -r  $GENOME -t  $TBAM -n  $NBAM -s  $SIMREP -f  $FILTER -g  $GENES -u  $UNMATCHED -as $ASSEMBLY -sp $SPECIES -e  $EXCLUDE -i $LSB_JOBINDEX -p  pin2vcf -cpus 1
+
+####################################################################################################
+# Starting pipeline at Thu Jan 07 16:34:34 EST 2016
+# Input files:  null
+# Output Log:  .bpipe/logs/40395.log
+# Stage mklogsdir
+mkdir -p $OUTDIR/blogs $OUTDIR/err
+# Stage input
+pindel.pl -o  $OUTDIR -r  $GENOME -t  $TBAM -n  $NBAM -s  $SIMREP -f  $FILTER -g  $GENES -u  $UNMATCHED -as $ASSEMBLY -sp $SPECIES -e  $EXCLUDE -i $LSB_JOBINDEX -p  input

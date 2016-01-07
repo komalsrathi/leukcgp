@@ -1,0 +1,122 @@
+// PINDEL PIPELINE
+// ===============
+
+mklogsdir = {
+    exec "mkdir -p $OUTDIR/blogs $OUTDIR/err"
+}
+
+input = {
+    exec """
+    pindel.pl -o  $OUTDIR
+              -r  $GENOME
+              -t  $TBAM
+              -n  $NBAM
+              -s  $SIMREP
+              -f  $FILTER
+              -g  $GENES
+              -u  $UNMATCHED
+              -as $ASSEMBLY
+              -sp $SPECIES
+              -e  $EXCLUDE
+              -i \$LSB_JOBINDEX
+              -p  input
+    ""","input"
+}
+
+pindel = {
+    exec """
+    pindel.pl -o  $OUTDIR
+              -r  $GENOME
+              -t  $TBAM
+              -n  $NBAM
+              -s  $SIMREP
+              -f  $FILTER
+              -g  $GENES
+              -u  $UNMATCHED
+              -as $ASSEMBLY
+              -sp $SPECIES
+              -e  $EXCLUDE
+              -i \$LSB_JOBINDEX
+              -p  pindel
+              -cpus 2
+    ""","pindel"
+}
+
+pin2vcf = {
+    exec """
+    pindel.pl -o  $OUTDIR
+              -r  $GENOME
+              -t  $TBAM
+              -n  $NBAM
+              -s  $SIMREP
+              -f  $FILTER
+              -g  $GENES
+              -u  $UNMATCHED
+              -as $ASSEMBLY
+              -sp $SPECIES
+              -e  $EXCLUDE
+              -i \$LSB_JOBINDEX
+              -p  pin2vcf
+              -cpus 1
+    ""","pin2vcf"
+}
+
+merge = {
+    exec """
+    pindel.pl -o  $OUTDIR
+              -r  $GENOME
+              -t  $TBAM
+              -n  $NBAM
+              -s  $SIMREP
+              -f  $FILTER
+              -g  $GENES
+              -u  $UNMATCHED
+              -as $ASSEMBLY
+              -sp $SPECIES
+              -e  $EXCLUDE
+              -i \$LSB_JOBINDEX
+              -p  merge
+              -cpus 1
+    ""","merge"
+}
+
+flag = {
+    exec """
+    pindel.pl -o  $OUTDIR
+              -r  $GENOME
+              -t  $TBAM
+              -n  $NBAM
+              -s  $SIMREP
+              -f  $FILTER
+              -g  $GENES
+              -u  $UNMATCHED
+              -as $ASSEMBLY
+              -sp $SPECIES
+              -e  $EXCLUDE
+              -i \$LSB_JOBINDEX
+              -p  flag
+              -cpus 1
+              -limit 6
+    ""","flag"
+}
+
+annotvcf = {
+    exec """
+    AnnotateVcf.pl -i  $FLAGGED
+                   -o  $ANNOT
+                   -c  $CACHE
+                   -sp $SPECIES
+                   -as $ASSEMBLY
+                   -t
+    ""","annotvcf"
+}
+
+Bpipe.run {
+    mklogsdir +
+    input +
+    pindel +
+    pin2vcf +
+    merge +
+    flag +
+    annotvcf
+}
